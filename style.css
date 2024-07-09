@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -22,6 +23,8 @@ body {
      color: white;
 
  }
+
+
 
  a:hover {
      text-decoration: underline;
@@ -123,7 +126,6 @@ img {
     font-family: "Courier New" ,serif;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .rprojh2 {
@@ -186,6 +188,117 @@ img {
     width: 100%; /* Ensure image scales with container */
     height: auto; /* Maintain aspect ratio */
     transition: transform 1s ease 0s; /* Smoothly transition the size of */
+}
+
+@media screen and (max-width: 640px) {
+    /*min-width will apply this css to desktop devices(large screen) bigger then 600 it will apply the css*/
+    /*max-width will apply to small screen (mobile) the value 600px it will change under it*/
+
+    html{
+        width: 640px;
+    }
+    section {
+        width: 640px;
+    }
+
+
+    header {
+        background-image: url("header.gif");
+        background-size: cover;
+        height: 350px;
+        width: 100vh;
+        color: white;
+        padding: 4rem;
+        font-family: sans-serif;
+
+    }
+
+    .headerTitle {
+        font-size: 40px;
+        font-family: "Courier New", serif ;
+        text-shadow: 5px 1px 5px black;
+    }
+    .jobdescription {
+        font-size: 20px;
+        font-family: "Courier New" ,serif;
+        font-weight: bold;
+        text-shadow: 10px  10px 10px black;
+
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /*padding: 15px 550px 12px;*/
+        font-family: "Courier New" ,sans-serif;
+        height: 80px;
+        font-size: 15px;
+    }
+    nav .navbar2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 45px;
+        align-content: space-around;
+        padding-left: 2rem;
+    }
+    .haboutme {
+        font-size: 40px;
+        padding-top: 1rem;
+        font-family: "Courier New", serif;
+        text-align: center;
+        font-weight: bold;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+        width: 150px;
+        border-radius: 50%;
+
+    }
+    .flexContainer {
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-left: 20px; /* Adjust padding as needed for mobile */
+            padding-bottom: 20px; /* Adjust padding as needed for mobile */
+            justify-content: center; /* Adjust alignment as needed */
+        }
+    .paboutme {
+            font-size: 20px; /* Adjust font size as needed for mobile */
+            padding: 10px; /* Add padding if needed */
+        }
+    .proj {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-top: 90px;
+        padding-bottom: 5rem;
+        margin-left: 1rem;
+        align-items: center;
+        justify-content: center;
+        font-family: "Courier New" ,serif;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100vw;
+        /*border: 5px ridge #2a1c36;*/
+        height: 1px;
+        transition: height 1s ease 0s;
+        border-radius: 10px 0px 40px 0px;
+        box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
+        -webkit-box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
+        -moz-box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
+        overflow: hidden;
+    }
+    /*.proj img {*/
+    /*    display: flex;*/
+    /*    margin-left: 200px;*/
+    /*    margin-top: 50px;*/
+    /*    margin-right: 50px;*/
+    /*    width: 100%; !* Ensure image scales with container *!*/
+    /*    height: auto; !* Maintain aspect ratio *!*/
+    /*    transition: transform 1s ease 0s; !* Smoothly transition the size of *!*/
+    /*}*/
 }
 
 
