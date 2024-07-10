@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    font-family: "Courier New" ,sans-serif;
+    font-size: 20px;
+    color: lightgray;
+    text-shadow: 6px 6px 32px rgba(255,255,255,0.6);
+
+}
+
+nav {
+    background-image: url("workinpro.gif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 1000px;
+    margin-bottom: 800px;
+    height: 40vw;
+    width: 100vh;
+    margin-left: 350px;
+
+}
+
+img {
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        width: 640px;
+    }
+
+    section {
+        width: 640px;
+    }
+
+    header {
+        text-align: center;
+        font-family: "Courier New", sans-serif;
+        font-size: 10px;
+        color: lightgray;
+        text-shadow: 6px 6px 32px rgba(255, 255, 255, 0.6);
+    }
+
+    nav {
+        background-image: url("workinpro.gif");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        padding-top: 500px;
+        margin-bottom: 100px;
+        height: 40vw;
+        width: 100vh;
+        margin-left: 20px;
+
+    }
+
+    img {
+        display: none;
+    }
+
+}
