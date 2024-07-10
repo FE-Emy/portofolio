@@ -21,31 +21,25 @@ nav {
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding-top: 1000px;
-    margin-bottom: 800px;
-    height: 40vw;
-    width: 100vh;
-    margin-left: 350px;
+    height: 60vh;
+    width: 50vw;
+    margin-left: 500px;
+
 
 }
 
-img {
-    display: none;
-}
 
 @media screen and (max-width: 640px) {
     * {
         box-sizing: border-box;
     }
 
-    html {
-        width: 640px;
-    }
-
-    section {
-        width: 640px;
-    }
-
+    /*html {*/
+    /*    width: 640px;*/
+    /*}*/
+    /*section {*/
+    /*    width: 640px;*/
+    /*}*/
     header {
         text-align: center;
         font-family: "Courier New", sans-serif;
@@ -59,11 +53,9 @@ img {
         background-size: cover;
         display: flex;
         justify-content: center;
-        padding-top: 500px;
-        margin-bottom: 100px;
-        height: 40vw;
-        width: 100vh;
-        margin-left: 20px;
+        height: 40vh;
+        width: 100vw;
+        margin-left: 5px;
 
     }
 
