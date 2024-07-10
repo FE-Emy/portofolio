@@ -12,7 +12,10 @@
 </head>
 <body>
 <nav>
+<!--    You don't need this inner div-->
     <div>
+
+<!--        To save space, you can just use a .svg file and link it with the <img> tag-->
         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" viewBox="00 0 238 60" fill="none">
             <path d="M77.2685 18.2061L85.5868 47.9056H79.764L77.9703 41.2972H67.4944L65.7008 47.9056H59.8779L68.1963 18.2061L77.2685 18.2061ZM76.6186 36.1801L72.9793 22.8603H72.4594L68.8201 36.1801H76.6186Z"
                   fill="white"/>
@@ -36,7 +39,11 @@
                   fill="white"/>
         </svg>
     </div>
+
+<!--    You can now change this to just "navbar", no 2-->
     <div class="navbar2">
+
+<!--        No need to have separate classes for these, just select them with ".navbar a" in css-->
         <a href="#" class="navRight">Home</a>
         <a href="#about" class="navRight">About Me</a>
         <a href="#recent" class="navRight">Projects</a>
@@ -53,6 +60,9 @@
         </div>
     </div>
 </header>
+
+<!--You don't need this: just give the section below an id of "about"
+to link to it-->
 <a class="anchor" id="about"></a>
 <section>
     <div class="aboutME">
