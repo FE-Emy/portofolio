@@ -4,6 +4,7 @@
 }
 
 body {
+    /*As you're using the normalize.css, you don't need margin: 0 any more*/
     margin: 0;
     background-color: black;
 }
@@ -11,6 +12,9 @@ body {
  nav {
      display: flex;
      justify-content: space-between;
+
+     /*It's fine to use px, so don't change this,*/
+     /*but better to use rem in the future instead*/
      padding: 15px 300px 12px;
      align-items: center;
      font-family: "Courier New" ,sans-serif;
@@ -21,9 +25,10 @@ body {
  a {
      text-decoration: none;
      color: white;
+     /*You have a blank line here: just delete it to tidy up*/
 
  }
-
+/*Lots of blank lines here to remove!*/
 
 
  a:hover {
@@ -52,6 +57,7 @@ body {
 
  .headerTitle {
      font-size: 80px;
+     /*Remove this extra space before the semicolon*/
      font-family: "Courier New", serif ;
      text-shadow: 5px 1px 5px black;
  }
@@ -60,7 +66,11 @@ body {
      font-size: xx-large;
      font-family: "Courier New" ,serif;
      font-weight: bold;
+     /*One too many spaces after the first 10px
+     this might seem pedantic, but attention to
+     detail is really important!*/
      text-shadow: 10px  10px 10px black;
+     /*Remove this empty line*/
 
  }
 
@@ -90,10 +100,12 @@ body {
      font-family: "Courier New" ,serif;
      font-weight: bold;
      color: white;
+     /*Use a CSS comment instead of HTML comment here*/
      margin-left: 1rem; <!-- space between Mail me and Get to know me -->
  }
 
 section {
+    /*Remove this empty line*/
 
     background-position: center;
     background-size: cover;
@@ -159,7 +171,7 @@ img {
     gap: 50px;
 
 }
-
+/*Too many empty lines here*/
 
 
 .proj {
@@ -174,6 +186,7 @@ img {
     font-weight: bold;
     font-size: 20px;
     width: 1300px;
+    /*Remove this comment*/
     /*border: 5px ridge #2a1c36;*/
     height: 80px;
     transition: height 1s ease 0s;
@@ -212,6 +225,8 @@ img {
 @media screen and (max-width: 640px) {
     /*min-width will apply this css to desktop devices(large screen) bigger then 600 it will apply the css*/
     /*max-width will apply to small screen (mobile) the value 600px it will change under it*/
+
+    /*Remove these commented sections now*/
     /*html {*/
     /*    width: 640px;*/
     /*}*/
@@ -219,12 +234,16 @@ img {
     /*section {*/
     /*    width: 640px;*/
     /*}*/
+
+    /*You don't need this here, it's already at the top*/
     * {
         box-sizing: border-box;
     }
 
 
     header {
+        /*Some of these lines are the same as above,*/
+        /*you only need the lines that are different*/
         background-image: url("header.gif");
         background-size: cover;
         height: 350px;
@@ -237,12 +256,15 @@ img {
 
     .headerTitle {
         font-size: 40px;
+        /*Because you set the font in the other CSS,*/
+        /*you don't need to do it here as well*/
         font-family: "Courier New", serif;
         text-shadow: 5px 1px 5px black;
     }
 
     .jobdescription {
         font-size: 15px;
+        /*Same here re: font*/
         font-family: "Courier New", serif;
         font-weight: bold;
         text-shadow: 10px 10px 10px black;
@@ -253,6 +275,7 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: right;
+        /*Same here re: font*/
         font-family: "Courier New", sans-serif;
         height: 80px;
         font-size: 15px;
@@ -265,6 +288,7 @@ img {
         justify-content: space-between;
         gap: 20px;
         align-content: space-around;
+        /*Please remove comment and empty lines*/
         /*padding-left: 15rem;*/
 
 
@@ -273,6 +297,7 @@ img {
     .haboutme {
         font-size: 40px;
         padding-top: 1rem;
+        /*Same here re: font*/
         font-family: "Courier New", serif;
         text-align: center;
         font-weight: bold;
@@ -300,6 +325,8 @@ img {
         padding: 10px; /* Add padding if needed */
     }
 
+    /*A lot of lines here are exactly the same in the desktop*/
+    /*version above, so no need to repeat them here*/
     .proj {
         display: flex;
         flex-wrap: wrap;
@@ -309,6 +336,7 @@ img {
         margin-left: 1rem;
         align-items: center;
         justify-content: center;
+        /*Same here re: font*/
         font-family: "Courier New", serif;
         font-weight: bold;
         font-size: 20px;

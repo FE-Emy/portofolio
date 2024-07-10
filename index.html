@@ -12,7 +12,10 @@
 </head>
 <body>
 <nav>
+<!--    You don't need this inner div-->
     <div>
+
+<!--        To save space, you can just use a .svg file and link it with the <img> tag-->
         <svg xmlns="http://www.w3.org/2000/svg" width="100" height="200" viewBox="00 0 238 60" fill="none">
             <path d="M77.2685 18.2061L85.5868 47.9056H79.764L77.9703 41.2972H67.4944L65.7008 47.9056H59.8779L68.1963 18.2061L77.2685 18.2061ZM76.6186 36.1801L72.9793 22.8603H72.4594L68.8201 36.1801H76.6186Z"
                   fill="white"/>
@@ -36,7 +39,11 @@
                   fill="white"/>
         </svg>
     </div>
+
+<!--    You can now change this to just "navbar", no 2-->
     <div class="navbar2">
+
+<!--        No need to have separate classes for these, just select them with ".navbar a" in css-->
         <a href="#" class="navRight">Home</a>
         <a href="#about" class="navRight">About Me</a>
         <a href="#recent" class="navRight">Projects</a>
@@ -53,10 +60,15 @@
         </div>
     </div>
 </header>
+
+<!--You don't need this: just give the section below an id of "about"
+to link to it-->
 <a class="anchor" id="about"></a>
 <section>
     <div class="aboutME">
         <h2 class="haboutme">About me</h2>
+
+<!--        Maybe call this "aboutMeFlexContainer"-->
         <div class="flexContainer">
             <div>
                 <p class="paboutme">I am currently enrolled on the <a
@@ -72,8 +84,13 @@
         </div>
     </div>
 </section>
+
+<!--Again, no need to do this, just add the "recent" id to the section below-->
 <a class="anchor" id="recent"></a>
 <section class="myProjects">
+
+<!--    Names like "rprojh2" might be easy for you to understand, but would be-->
+<!--    harder for other people to figure out!-->
     <h2 class="rprojh2">Recent Projects</h2>
     <div class="recentProjects">
         <div class="proj">
@@ -117,10 +134,13 @@
             <img src="img/projectsimg.jpg" alt="projectnr4">
         </div>
     </div>
+    
 </section>
 <section class="contactme">
     <a class="anchor" id="contact"></a>
     <h2 class="contact">Contact me</h2>
+
+<!--    The "drop me an email" link could be better indented to make it clearer-->
     <p>If you'd like to get in touch, feel free to <a class="mailmeLink"
                                                       href="mailto:f.emeric.emy@gmail.com?subject=Let's work together">drop
         me an email </a> or
