@@ -71,6 +71,20 @@ body {
      font-weight: bold;
  }
 
+ .contactform {
+     font-size: 20px;
+     font-family: "Courier New" ,serif;
+     color: white;
+     font-weight: bold;
+ }
+
+ .gitlink {
+     font-size: 20px;
+     font-family: "Courier New" ,serif;
+     color: white;
+     font-weight: bold;
+ }
+
  .gtkm {
      font-size: 20px;
      font-family: "Courier New" ,serif;
@@ -188,6 +202,13 @@ img {
     transition: transform 1s ease 0s; /* Smoothly transition the size of */
 }
 
+.contactme {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 @media screen and (max-width: 640px) {
     /*min-width will apply this css to desktop devices(large screen) bigger then 600 it will apply the css*/
     /*max-width will apply to small screen (mobile) the value 600px it will change under it*/
@@ -301,15 +322,6 @@ img {
         overflow: hidden;
     }
 }
-/*    .proj img {*/
-/*        display: flex;*/
-/*        margin-left: 200px;*/
-/*        margin-top: 50px;*/
-/*        margin-right: 50px;*/
-/*        width: 100%; !* Ensure image scales with container *!*/
-/*        height: auto; !* Maintain aspect ratio *!*/
-/*        transition: transform 1s ease 0s; !* Smoothly transition the size of *!*/
-/*    }*/
-/*}*/
+
 
 
