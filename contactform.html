@@ -7,7 +7,6 @@
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
@@ -18,111 +17,15 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center; /* Center the form vertically */
-            height: 100vh; /* Full viewport height */
-            background-color: #0d0d0d; /* Dark background */
-            color: #00ffcc; /* Neon text color */
-            font-family: 'Orbitron', sans-serif; /* Futuristic font */
+            background-color: white;
         }
 
         .contact-form {
-            border: 2px solid #00ffcc; /* Neon border */
-            border-radius: 10px; /* Rounded corners */
+            border: solid black;
             display: flex;
             flex-direction: column;
             width: 100%;
             max-width: 400px;
-            background-color: #1a1a1a; /* Darker form background */
-            box-shadow: 0 0 15px #00ffcc; /* Neon glow */
-            padding: 20px;
-            animation: glitch 1s infinite; /* Glitch effect */
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            background-color: #0d0d0d; /* Dark input background */
-            border: 1px solid #00ffcc; /* Neon input border */
-            color: #00ffcc; /* Neon input text */
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            outline: none; /* Remove outline */
-            font-family: 'Orbitron', sans-serif; /* Futuristic font */
-        }
-
-        .contact-form input::placeholder,
-        .contact-form textarea::placeholder {
-            color: #00ffcc; /* Neon placeholder text */
-        }
-
-        .contact-form button {
-            background-color: #00ffcc; /* Neon button background */
-            border: none;
-            color: #0d0d0d; /* Dark button text */
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-family: 'Orbitron', sans-serif; /* Futuristic font */
-            font-size: 1.1em;
-            transition: background-color 0.3s ease;
-        }
-
-        .contact-form button:hover {
-            background-color: #009999; /* Darker neon on hover */
-        }
-
-        @keyframes glitch {
-            0% {
-                transform: translate(0);
-            }
-            20% {
-                transform: translate(-5px, 5px);
-            }
-            40% {
-                transform: translate(-5px, -5px);
-            }
-            60% {
-                transform: translate(5px, 5px);
-            }
-            80% {
-                transform: translate(5px, -5px);
-            }
-            100% {
-                transform: translate(0);
-            }
-        }
-
-        /* Additional keyframes for glitch effect */
-        @keyframes glitch2 {
-            0% {
-                clip: rect(44px, 450px, 56px, 0);
-            }
-            50% {
-                clip: rect(88px, 450px, 99px, 0);
-            }
-            100% {
-                clip: rect(22px, 450px, 35px, 0);
-            }
-        }
-
-        .contact-form::before,
-        .contact-form::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: inherit;
-            z-index: -1;
-        }
-
-        .contact-form::before {
-            animation: glitch2 2s infinite linear alternate-reverse;
-        }
-
-        .contact-form::after {
-            animation: glitch 3s infinite linear alternate-reverse;
         }
     </style>
 </head>
