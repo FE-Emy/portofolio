@@ -175,7 +175,7 @@ section {
 }
 
 .projects:hover {
-    height: 600px;
+    height: 300px;
 }
 
 .projects:hover img {
@@ -194,7 +194,7 @@ section {
 
 footer {
     color: white;
-    margin-top: 150px;
+    margin-top: 280px;
     display: flex;
     flex-wrap: wrap;
     border-top: 5px ridge #8E799A;
