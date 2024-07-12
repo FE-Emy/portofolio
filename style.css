@@ -8,6 +8,7 @@ html {
 
 body {
     background-color: black;
+    font-family: "Courier New" ,sans-serif;
 }
 
 nav {
@@ -15,7 +16,6 @@ nav {
      justify-content: space-between;
      padding: 15px 300px 12px;
      align-items: center;
-     font-family: "Courier New" ,sans-serif;
      height: 80px;
      font-size: 15px;
 }
@@ -55,14 +55,12 @@ header {
 
 .headerTitle {
      font-size: 80px;
-     font-family: "Courier New", serif ;
      text-shadow: 5px 1px 5px black;
      padding-left: 115px;
 }
 
 .headerParagraph {
      font-size: xx-large;
-     font-family: "Courier New" ,serif;
      font-weight: bold;
      text-shadow: 10px 10px 10px black;
      padding-left: 118px;
@@ -70,7 +68,6 @@ header {
 
 .mailMeLink {
      font-size: 20px;
-     font-family: "Courier New" ,serif;
      color: white;
      font-weight: bold;
      padding-left: 118px;
@@ -78,14 +75,12 @@ header {
 
 .gitlink {
      font-size: 20px;
-     font-family: "Courier New" ,serif;
      color: white;
      font-weight: bold;
 }
 
 .gtkm {
      font-size: 20px;
-     font-family: "Courier New" ,serif;
      font-weight: bold;
      color: white;
      margin-left: 1rem;
@@ -107,7 +102,6 @@ section {
 .headerAboutMeFlexContainer {
     font-size: 50px;
     padding-top: 3rem;
-    font-family: "Courier New" ,serif;
     text-align: center;
     font-weight: bold;
     margin: 0 auto;
@@ -128,7 +122,6 @@ section {
 }
 
 .paragraphAboutMe {
-    font-family: "Courier New" ,serif;
     font-size: 20px;
     font-weight: bold;
     padding-right: 10px;
@@ -137,7 +130,6 @@ section {
 .recentProjectsHeader {
     font-size: 50px;
     padding-top: 7rem;
-    font-family: "Courier New" ,serif;
     text-align: center;
     font-weight: bold;
     margin: 0 auto;
@@ -161,18 +153,18 @@ section {
     align-items: center;
     justify-content: center;
     margin-right: 70px;
-    font-family: "Courier New" ,serif;
     font-weight: bold;
     font-size: 20px;
     width: 1350px;
     height: 80px;
     transition: height 1s ease 0s;
-    border-radius: 10px 0px 40px 0px;
+    border-radius: 10px 0px 40px 0px; /*don't need px for when 0*/
     box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
     -webkit-box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
     -moz-box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
     overflow: hidden;
 }
+
 
 .projects:hover {
     height: 300px;
@@ -208,7 +200,6 @@ footer {
 
 .contactMeHeader {
     font-size: 20px;
-    font-family: "Courier New" ,sans-serif;
     display: flex;
     justify-content: left;
     padding-left: 317px;
@@ -216,7 +207,6 @@ footer {
 
 footer p {
     width: 90%;
-    font-family: "Courier New" ,sans-serif;
     font-size: 20px;
     font-weight: bold;
     padding-left: 317px;
@@ -245,7 +235,6 @@ footer p {
 
 .contactform {
     font-size: 20px;
-    font-family: "Courier New" ,serif;
     color: white;
     font-weight: bold;
 }
@@ -337,16 +326,10 @@ footer p {
         padding-left: 3px;
         width: 100vw;
         height: 1px;
-        transition: height 1s ease 0s;
-        border-radius: 10px 0px 40px 0px;
-        box-shadow: 25px 19px 22px 10px rgba(217, 207, 237, 0.72);
-        -webkit-box-shadow: 25px 19px 22px 10px rgba(217, 207, 237, 0.72);
-        -moz-box-shadow: 25px 19px 22px 10px rgba(217, 207, 237, 0.72);
-        overflow: hidden;
     }
 
     footer {
-        margin-top: 440px;
+        margin-top: 595px;
         width: 375px;
     }
 
@@ -355,7 +338,7 @@ footer p {
     }
 
     footer p {
-        padding-left: 3px;
+        padding-left: 50px;
     }
 
     .returnTop {
