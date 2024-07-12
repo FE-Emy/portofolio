@@ -73,13 +73,7 @@ header {
      padding-left: 118px;
 }
 
-.gitlink {
-     font-size: 20px;
-     color: white;
-     font-weight: bold;
-}
-
-.gtkm {
+.getToKnowMe {
      font-size: 20px;
      font-weight: bold;
      color: white;
@@ -107,7 +101,7 @@ section {
     margin: 0 auto;
 }
 
-.profilepic {
+.profilePicture {
     width: 400px;
     border-radius: 40%;
     padding-bottom: 50px;
@@ -158,13 +152,12 @@ section {
     width: 1350px;
     height: 80px;
     transition: height 1s ease 0s;
-    border-radius: 10px 0px 40px 0px; /*don't need px for when 0*/
+    border-radius: 10px 0 40px 0; /*don't need px for when 0*/
     box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
     -webkit-box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
     -moz-box-shadow: 25px 19px 22px 10px rgba(217,207,237,0.72);
     overflow: hidden;
 }
-
 
 .projects:hover {
     height: 300px;
@@ -190,10 +183,10 @@ footer {
     display: flex;
     flex-wrap: wrap;
     border-top: 5px ridge #8E799A;
-    border-radius: 11px 11px 0px 0px;
+    border-radius: 11px 11px 0 0;
 }
 
-.contactme {
+.contactMe {
     display: flex;
     justify-content: center;
 }
@@ -233,7 +226,7 @@ footer p {
     padding-top: 3rem;
 }
 
-.contactform {
+.contactForm {
     font-size: 20px;
     color: white;
     font-weight: bold;
@@ -295,7 +288,7 @@ footer p {
         font-weight: bold;
     }
 
-    .profilepic {
+    .profilePicture {
         height: 200px;
         width: 130px;
         border-radius: 40%;
