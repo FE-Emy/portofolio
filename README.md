@@ -8,7 +8,7 @@ Please note that this portfolio is a starting point and may be updated or replac
 
 ## Project Details
 
-- **Technologies Used:** HTML, CSS
+- **Technologies Used:** HTML, CSS, Git, PHP Storm
 - **Description:** This portfolio site includes essential elements like headers, navigation, and layout designs, created to highlight my skills and projects.
 
 Thank you for visiting, and feel free to reach out if you have any questions or feedback!
